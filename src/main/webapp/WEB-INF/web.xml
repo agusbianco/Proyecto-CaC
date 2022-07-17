@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xmlns:web="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd http://xmlns.jcp.org/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="5.0">
+  <display-name>Thomen-CaC-Backend</display-name>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>ControladorIndex</display-name>
+    <servlet-name>ControladorIndex</servlet-name>
+    <servlet-class>controladores.ControladorIndex</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ControladorIndex</servlet-name>
+    <url-pattern>/ControladorIndex</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>ControladoraLogin</display-name>
+    <servlet-name>ControladoraLogin</servlet-name>
+    <servlet-class>controladores.ControladoraLogin</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ControladoraLogin</servlet-name>
+    <url-pattern>/ControladoraLogin</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>ControladoraProducto</display-name>
+    <servlet-name>ControladoraProducto</servlet-name>
+    <servlet-class>controladores.ControladoraProducto</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ControladoraProducto</servlet-name>
+    <url-pattern>/ControladoraProducto</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>ControladoraRegistro</display-name>
+    <servlet-name>ControladoraRegistro</servlet-name>
+    <servlet-class>controladores.ControladoraRegistro</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ControladoraRegistro</servlet-name>
+    <url-pattern>/ControladoraRegistro</url-pattern>
+  </servlet-mapping>
+</web-app>
